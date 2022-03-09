@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         welcomeVC.userWelcome = userName.text
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super .touchesBegan(touches, with: event)
+    }
+    
     @IBAction func actionButtonLogin() {
         if userName.text == "Admin" && userPassword.text == "root" {
             userPassword.text = ""
