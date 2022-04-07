@@ -14,10 +14,10 @@ class WelcomeViewController: UIViewController {
     var user = ""
     
     private let primaryColor = UIColor(
-    red: 210/255,
-    green: 109/255,
-    blue: 128/255,
-    alpha: 1
+        red: 210/255,
+        green: 109/255,
+        blue: 128/255,
+        alpha: 1
     )
     
     private let secondaryColor = UIColor(

@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		C4313D0327D7F3DE00BCFEE9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		C45E0E6C27D7B121009B869C /* TwoViewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoViewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45E0E6C27D7B121009B869C /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45E0E6F27D7B121009B869C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C45E0E7127D7B121009B869C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C45E0E7327D7B121009B869C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		C45E0E6327D7B121009B869C = {
 			isa = PBXGroup;
 			children = (
-				C45E0E6E27D7B121009B869C /* TwoViewsApp */,
+				C45E0E6E27D7B121009B869C /* LoginApp */,
 				C45E0E6D27D7B121009B869C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		C45E0E6D27D7B121009B869C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C45E0E6C27D7B121009B869C /* TwoViewsApp.app */,
+				C45E0E6C27D7B121009B869C /* LoginApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C45E0E6E27D7B121009B869C /* TwoViewsApp */ = {
+		C45E0E6E27D7B121009B869C /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
 				C45E0E6F27D7B121009B869C /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				C45E0E7A27D7B122009B869C /* LaunchScreen.storyboard */,
 				C45E0E7D27D7B122009B869C /* Info.plist */,
 			);
-			path = TwoViewsApp;
+			path = LoginApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C45E0E6B27D7B121009B869C /* TwoViewsApp */ = {
+		C45E0E6B27D7B121009B869C /* LoginApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C45E0E8027D7B122009B869C /* Build configuration list for PBXNativeTarget "TwoViewsApp" */;
+			buildConfigurationList = C45E0E8027D7B122009B869C /* Build configuration list for PBXNativeTarget "LoginApp" */;
 			buildPhases = (
 				C45E0E6827D7B121009B869C /* Sources */,
 				C45E0E6927D7B121009B869C /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = TwoViewsApp;
+			name = LoginApp;
 			productName = TwoViewsApp;
-			productReference = C45E0E6C27D7B121009B869C /* TwoViewsApp.app */;
+			productReference = C45E0E6C27D7B121009B869C /* LoginApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C45E0E6727D7B121009B869C /* Build configuration list for PBXProject "TwoViewsApp" */;
+			buildConfigurationList = C45E0E6727D7B121009B869C /* Build configuration list for PBXProject "LoginApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C45E0E6B27D7B121009B869C /* TwoViewsApp */,
+				C45E0E6B27D7B121009B869C /* LoginApp */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy-Starozhilov.TwoViewsApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy-Starozhilov.LoginApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy-Starozhilov.TwoViewsApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy-Starozhilov.LoginApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C45E0E6727D7B121009B869C /* Build configuration list for PBXProject "TwoViewsApp" */ = {
+		C45E0E6727D7B121009B869C /* Build configuration list for PBXProject "LoginApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C45E0E7E27D7B122009B869C /* Debug */,
@@ -356,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C45E0E8027D7B122009B869C /* Build configuration list for PBXNativeTarget "TwoViewsApp" */ = {
+		C45E0E8027D7B122009B869C /* Build configuration list for PBXNativeTarget "LoginApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C45E0E8127D7B122009B869C /* Debug */,
